@@ -1,2 +1,2 @@
 # sologameproject1
- Solo Game Project
+ Solo Game Project - By  Joan Mikel Amaya
