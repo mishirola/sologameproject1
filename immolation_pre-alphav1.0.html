@@ -62,6 +62,7 @@ PAL 3
 51,6,17
 122,255,87
 255,249,253
+26,6,23
 NAME end
 
 PAL 4
@@ -98,7 +99,7 @@ PAL 7
 255,249,253
 255,4,4
 255,224,193
-30,0,92
+7,3,20
 193,164,255
 51,6,17
 122,255,87
@@ -149,7 +150,7 @@ ITM 2 14,3
 ITM 2 14,2
 ITM 2 14,1
 ITM 3 14,9
-EXT 14,9 1 13,13
+EXT 15,9 1 12,12
 PAL 0
 
 ROOM 1
@@ -165,14 +166,14 @@ ROOM 1
 1a,a,0,0,0,0,0,0,0,0,0,0,0,a,1a,1a
 1a,a,0,0,0,0,0,0,0,0,0,0,0,a,1a,1a
 1a,a,0,0,0,0,0,0,0,0,0,0,0,a,1a,1a
-1a,a,0,0,0,0,0,0,0,0,0,0,0,15,1a,1a
+1a,a,0,0,0,0,0,0,0,0,0,0,0,15,20,1a
 1a,a,a,0,0,0,0,0,0,0,0,0,a,a,1a,1a
 1a,1a,a,a,a,a,a,b,a,a,a,a,a,a,1a,1a
 1a,1a,1a,1a,1a,1a,1a,1a,1a,1a,1a,1a,1a,1a,1a,1a
 NAME basement
-EXT 13,13 0 14,9
+EXT 12,12 0 15,9
 EXT 2,3 2 13,13 DLG 5
-EXT 7,14 9 7,0
+EXT 7,14 9 7,0 DLG n
 PAL 1
 TUNE 2
 
@@ -315,7 +316,7 @@ ITM 2 13,12
 ITM 3 1,2
 ITM 3 13,13
 EXT 0,12 3 15,12 FX slide_l
-EXT 15,13 0 1,1 FX tunnel DLG c
+EXT 14,13 0 1,1 FX tunnel DLG c
 EXT 1,1 6 7,15
 PAL 0
 
@@ -378,6 +379,7 @@ ROOM 8
 13,13,13,13,13,13,13,0,0,13,13,13,13,13,13,13
 13,13,13,13,13,13,13,0,13,13,13,13,13,13,13,13
 NAME bathroom_mirror
+ITM 0 13,11
 EXT 7,15 4 1,3
 PAL 0
 
@@ -435,14 +437,14 @@ a,0,0,0,0,0,a,0,0,a,a,a,0,a,a,a
 a,0,0,0,0,0,a,a,0,0,0,0,0,0,0,a
 a,0,0,0,0,0,0,0,0,a,0,a,a,a,0,a
 a,a,a,a,a,0,0,0,0,a,0,0,0,0,0,a
-a,0,1n,0,a,a,a,0,0,a,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,a,0,0,1n,0,0,a
+a,0,0,0,a,a,a,0,0,a,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,a,0,0,0,0,0,a
 a,a,a,a,0,a,0,0,0,a,0,0,0,0,0,a
 a,0,0,0,0,a,0,0,0,0,0,0,0,0,0,a
-0,a,0,1n,0,a,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,a,0,0,0,0,0,0,0,0,a,0
 0,0,a,a,a,a,a,a,a,a,a,a,a,a,0,0
 NAME dream placeholder
-EXT 7,0 c 13,13 DLG g
+EXT 7,0 c 1,1 DLG g
 PAL 3
 
 ROOM c
@@ -463,7 +465,6 @@ u,a,a,a,a,1v,1w,a,a,a,a,a,a,a,a,u
 1y,j,1y,1y,0,1x,1x,0,j,j,1y,1y,j,1y,1y,1y
 a,a,a,a,i,i,i,i,a,a,a,a,a,a,a,a
 NAME living_room copy 1
-EXT 14,9 1 13,13
 PAL 3
 
 ROOM e
@@ -484,7 +485,8 @@ u,a,a,a,a,0,0,a,a,a,a,a,a,a,a,u
 1y,j,1y,1y,0,1x,1x,0,j,j,1y,1y,j,1y,1y,1y
 a,a,a,a,i,i,i,i,a,a,a,a,a,a,a,a
 NAME living_room no door
-EXT 14,9 1 13,13
+EXT 5,14 f 7,15
+EXT 6,14 f 7,15
 PAL 3
 
 ROOM f
@@ -501,11 +503,13 @@ ROOM f
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,1z,a,a,a,a,a,a,a,a,a
+0,0,0,0,0,1f,1f,1f,0,0,0,0,0,0,0,0
+0,0,0,0,0,1f,1z,a,a,a,a,a,a,a,a,a
 a,a,a,a,a,a,0,0,0,0,0,0,0,0,0,0
 NAME placeholder for LARGE BRAIN WOAH
-EXT 6,14 g 13,13 DLG k
+EXT 6,14 f 13,13 DLG k
+EXT 13,13 f 6,14
+EXT 15,15 g 0,15
 PAL 3
 
 ROOM g
@@ -519,16 +523,15 @@ ROOM g
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,a,a,a,0,0,0,0,0,0,0,0
+0,0,0,0,0,a,0,a,0,0,0,0,0,0,0,0
+0,0,0,0,0,a,0,a,0,0,0,0,0,0,0,0
+0,0,0,0,0,a,0,a,0,0,0,0,0,0,0,0
+a,a,a,a,a,a,0,a,a,a,a,a,a,a,a,a
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
 NAME da fog
-EXT 13,13 f 6,14
-EXT 6,0 0 13,13
-PAL 0
+EXT 0,15 f 15,15
+PAL 7
 
 ROOM h
 u,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
@@ -548,7 +551,6 @@ u,a,a,0,0,0,0,0,0,0,0,0,0,0,0,0
 u,a,a,a,a,0,0,0,0,0,0,0,0,0,a,a
 u,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 NAME bedroom. copy 1
-EXT 15,12 4 0,12 FX slide_r
 PAL 3
 
 TIL 10
@@ -625,6 +627,7 @@ TIL 15
 1,1,1,1,1,1,0,0
 1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1
+WAL false
 COL 1
 
 TIL 16
@@ -673,6 +676,19 @@ TIL 19
 1,1,9,9,9,9,1,1
 1,1,1,9,9,1,1,1
 1,1,1,9,9,1,1,1
+WAL true
+COL 1
+
+TIL 20
+8,8,8,8,8,8,8,8
+8,8,8,8,8,8,8,8
+8,8,8,8,8,8,8,8
+8,8,8,8,8,8,8,8
+8,8,8,8,8,8,8,8
+8,8,8,8,8,8,8,8
+8,8,8,8,8,8,8,8
+8,8,8,8,8,8,8,8
+NAME blackwall
 WAL true
 COL 1
 
@@ -1269,6 +1285,7 @@ TIL 1r
 1,1,1,1,1,2,1,1
 1,1,1,1,1,1,2,1
 NAME stairswindowed
+WAL true
 COL 1
 
 TIL 1s
@@ -1404,7 +1421,7 @@ SPR A
 0,1,0,3,3,3,0,0
 0,0,0,3,0,3,0,0
 0,0,0,3,0,0,0,0
-POS c 5,5
+POS 3 7,5
 COL 2
 
 SPR a
@@ -1673,6 +1690,60 @@ DLG j
 POS c 5,11
 COL 2
 
+SPR q
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+0,0,9,9,9,9,0,0
+0,0,9,0,0,9,0,0
+0,6,6,6,6,6,6,0
+6,6,2,2,2,2,6,6
+6,2,2,2,2,2,2,6
+6,2,2,2,2,2,2,6
+DLG m
+POS e 14,1
+COL 2
+
+SPR r
+0,0,0,0,0,0,0,0
+0,0,0,8,8,0,0,0
+0,0,8,0,0,8,0,0
+0,0,0,0,0,8,0,0
+0,0,0,8,8,0,0,0
+0,0,0,8,0,0,0,0
+0,0,0,0,0,0,0,0
+0,0,0,8,0,0,0,0
+DLG o
+POS b 7,13
+COL 2
+
+SPR s
+4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4
+NAME smog
+DLG q
+POS g 6,11
+COL 2
+
+SPR t
+4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4
+NAME smog2
+DLG p
+POS g 14,15
+COL 2
+
 ITM 0
 0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0
@@ -1755,7 +1826,18 @@ ITM 4
 0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0
 NAME GLASSCANNON
-DLG l
+COL 2
+
+ITM 5
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+NAME coolkey
 COL 2
 
 DLG 0
@@ -1771,7 +1853,19 @@ A key! {wvy}What does it open?{wvy}
 NAME key dialog
 
 DLG 3
-I don't think you should use the {clr 2}key.{/clr}{pg}Just chill and {rbw}vibe{/rbw} with me, man.
+"""
+{shk}{rbw}MEOW{/rbw}{/shk}{pg}{
+  - {item "1"} >= 1 ?
+    I don't think you should use the {clr 2}key.{/clr}
+  - else ?
+    ...
+}{
+  - {item "0"} >= 3 ?
+    A tea enjoyer, huh? Guess you're a cool guy, then...{pg}Here, take this key.{item "5" 1}{item "0" 0}
+  - else ?
+    {pg}Just chill and {rbw}vibe{/rbw} with me, man.
+}
+"""
 NAME prophetcat dialog
 
 DLG 4
@@ -1851,19 +1945,47 @@ NAME sprite l dialog
 DLG k
 """
 {
-  - {item "1"} >= 1 ?
-    {property locked false}
-    The key opens the door!
+  - {item "4"} >= 1 ?
+    {property locked false}You point the GLASS CANNON at the door, blasting it to shreds.{pg}The GLASS CANNON shatters into irrecoverable pieces{pg}But you're through.{item "4" {{item "4"} - 1}}
   - else ?
-    {property locked true}
-    The door is locked...
-}
+    {property locked true}The door is locked by means far beyond your reach.
+}{pg}Though, you think with a bitter thought,{pg}Enough firepower could break through...{wvy}anything,{/wvy} right?
 """
 NAME locked exit 3
 
-DLG l
-You forged a glass cannon!
-NAME GLASSCANNON dialog
+DLG m
+"""
+It's a toolbag.{pg}You feel like you could make something with it...{
+  - {item "2"} >= 60 ?
+    As soon as the thought strikes you,{pg}You feel the glass in your pockets fly out, glowing and shining.{pg}It swirls together in a malevolent maelstrom, but your will binds it together.{item "4" 1}{pg}You have forged a {clr 0}{shk}GLASS CANNON!{/shk}{/clr}
+  - else ?
+    But inspiration does not strike you. Maybe if you had enough raw materials...
+}
+"""
+NAME sprite q dialog
+
+DLG n
+"""
+{
+  - {item "5"} >= 1 ?
+    {property locked false}The key opens the door!
+  - else ?
+    {property locked true}The door is locked...{pg}You can hear the cat meow lazily:{pg}The key to the garage is exclusive to {rbw}COOL KIDS{/rbw} only.{pg}The cat yawns lazily, but seeing your distress,{pg}it generously offers a hint.{pg}{rbw}COOL KIDS{/rbw} drink TEA. Because we're cultured :3
+}
+"""
+NAME locked exit 4
+
+DLG o
+This area, like the rest of your mind-{pg}...is under construction.
+NAME sprite r dialog
+
+DLG p
+Yes, this is the end...{pg}{shk}For now.{/shk}
+NAME smog2 dialog
+
+DLG q
+You feel your mind grow heavy.{pg}Your own mind grips at itself like a cannibalistic vine.{pg}Invisible claws tear at the frayed edges of your sanity.{pg}What little there is falls black...{pg}But you are a determined man.{pg}As your soul readies to repeat its doomed cycle,{pg}As your mind wills itself to continue this civil war,{pg}The nightmares in your head stir from their slumber.{pg}Alan, wake too.{end}
+NAME smog dialog
 
 VAR a
 42
